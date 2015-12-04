@@ -1,0 +1,466 @@
+#dropdown-menu h2 {
+	padding: 14px;
+	margin: 0;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+#dropdown-menu .sample {
+	width: 200px;
+}
+
+#dropdown-menu .form-group {
+	margin: 30px 0;
+}
+
+ .btn.ok{
+  /* padding: 15px;
+  font-size: 11px; */
+  margin:2px 1px 2px 1px;
+  
+  
+  }  
+.u-center {
+	text-align: center;
+}
+
+td{
+	vertical-align: middle !important;
+}
+
+.parent{
+	
+}
+
+.navbar-brand img {
+  left: 4px;
+  vertical-align: middle;
+  max-height: 100%;
+  
+}
+
+.table-tapdown {
+ margin: 90px 10px 0 0px;
+}
+
+#nav-left-tapdown {
+ margin: 100px 10px 0 0px;
+}
+
+.convert-tapdown {
+ margin: 0px 5px 0 0px;
+}
+
+/* **********************page convert********************* */
+.areaConvert {
+ margin: 70px 10px 0 0px;
+}
+
+.bgBrown{
+	background-color: #7f5739;
+}
+
+.uptofont{
+	font-size: 30px;
+	font-family: Caviar;
+	color:#7f5739;
+}
+
+.uptofont2{
+	font-size: 50px;
+	font-family: MJFFont;
+	color:#4b92e4;
+}
+.coUpto{
+	font-size: 30px;
+	font-family: Caviar;
+	color:#7f5739;
+}
+
+.popover {
+
+   background:rgba(0,0,0,0);
+}
+
+.fontcolor1{
+	font-family: HelFont;
+    color: #4a92e3;
+    font-size: 20px;
+}
+
+.fontcolor2{
+	font-family: HelFont;
+	color: #4a92e3;
+	font-size:20px;
+}
+
+.label-rigt-menu{
+	font-family: HelFont;
+	color: white;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 140px;
+    margin-left: 45px;
+}
+
+.navfontcolor{
+	font-family: HelFont;
+	font-size:30px;
+}
+
+/* header */
+.fixnavbarwidth{
+	width:  960px;
+	margin-left: 260px;
+	margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 0px;   
+    background-color: #e9e9e9;
+}
+
+/* *******active nav bar ***************/
+a.current {  
+ 
+  text-decoration:underline;
+}
+
+.size-canvas{
+	width:250px;
+	hight:50px;
+	}
+
+/* **************fixed positon wrapperBar******************* */
+.posWrapper{
+	margin-left: 35px;
+}
+
+.posWrapper2{
+	margin-top: 160px;
+}
+
+.posWrapper3{
+	margin-left: 40px;
+}
+
+/* ***********Page Board******************8 */
+
+.bcb{
+	margin-left:9px; background-color: #eeeeee; 
+}
+
+.boardFont1{
+	font-family: HelFont;	color: #7e6845;	font-size:20px;
+}
+
+.boardColorPanel{
+	background-color: #eeeeee; width:400px; height:260;
+}
+
+.bText1{
+	font-family: HelFont;	color: #7e6845;	font-size:20px;
+}
+
+.bSelectWidth{
+	width:200px; height:260;
+}
+
+.bTextarea1{
+	background-color: #eeeeee; width:400px; height:260;
+}
+
+.bTextarea2{
+	background-color: #eeeeee; width:380px; height:260;
+}
+
+.bPanelColor{
+	background-color: #eeeeee; 
+}
+
+.bTextTopic{
+	font-size: 12px;
+}
+
+.bColorText{
+	color: #000000; 
+}
+
+.bColorTextUser{
+	color: #7e6845;
+}
+
+/* ******************* Page User **************** */
+.uBgTable{
+	background-color: #c5dcf5;
+}
+/**********************************************/
+.modalC1{
+	background-color: #dee3e7;
+}
+
+.logPos{
+	margin-top:30px;
+}
+
+.buttonLogin{
+	font-family: HelFont;
+    font-size: 30px;
+    margin-left:40px;
+    color: #866651;
+}
+
+.logBut{
+	font-family: HelFont;
+    font-size: 30px;
+    margin-left:40px;
+    color: #866651;
+}
+
+.logTextin1{
+	font-size:30px;
+	margin-top: 70px;
+	color: #675418;
+	font-family: HelFont;
+	font-weight: bold; 
+	color: #866651; 
+
+}
+
+.logTextin2{
+	font-size:30px; 
+	margin-top: 30px;	
+	font-family: HelFont;
+	font-weight: bold; 
+	color: #866651; 
+}
+
+.logInput2{
+	font-size:25px; margin-top: 70px;
+}
+
+.logoPos{
+	margin-left:20px;
+}
+
+.logLabel1{
+	font-family: HelFont;
+	color: #866651; 
+	font-size: 70px;
+	 margin-left:10px; 
+	 margin-top:20px;
+	 font-weight: 1000;
+}
+
+.steavPos{
+	margin-left:105px;
+	}
+
+.Line-or-text{	
+	font-family: HelFont;
+	color: #866651;
+    font-size: 30px;
+    margin: 0px 0px 0px 100px;
+}
+
+
+.fb-button{
+	margin-left:120px;
+	margin-top:15px;
+}
+
+.marginCanvas1{
+	margin-left: 150px;
+}
+
+.marginCanvas2{
+	margin-bottom: 140px; margin-left: 500px;
+}
+
+
+
+/* Style Masony of BOARD page */
+*, *:before, *:after {box-sizing:  border-box !important;}
+.rowmasony {
+ -moz-column-width: 25em;
+ -webkit-column-width: 20em;
+ -moz-column-gap: .5em;
+ -webkit-column-gap: .5em;   
+}
+
+.panel {
+ display: inline-block;
+ margin:  .5em;
+ padding:  0; 
+ width:98%;
+}
+
+
+/* login Page */
+.tapdownlog{
+	margin: 35px 50px 150px 50px;
+}
+
+.pic-inside-logo
+{
+	padding:10px; 
+	margin-top: 20px;
+	padding:10px; 
+	text-align:center; 	
+	font-weight: bold;
+	text-decoration: none;
+	position:fixed;
+	top:30px;
+	left:83px;
+	
+}
+
+.form-control::-webkit-input-placeholder { color: #866651;}
+.form-control:-moz-placeholder { color: white; }
+.form-control::-moz-placeholder { color: white; }
+.form-control:-ms-input-placeholder { color: white; }
+
+input, select, textarea{
+    color: red;
+}
+
+#col-tapdown-login{
+	margin: 50px 0px 0px 0px;
+}
+
+.button-login-wiht-face{
+	font-family: HelFont;
+	color: #866651;
+    font-size: 35px;
+    margin: 20px 0px 0px 100px;
+    
+}
+
+body{
+	background: url('../img/Background.png') /* no-repeat 0px 20px */;
+	 /* background-size: 50px 50px; */
+}
+
+#front-size-a{
+	font-family: HelFont;
+	color: white;
+	font-size: 20px;
+}
+
+.fc1{
+	font-family: HelFont;
+	color: #4a92e3;
+	font-size:25px;
+}
+
+.table-tapdown2 {
+ margin: 70px 100px 0px 100px;
+ 
+  
+}
+
+.scrollToTop{
+	width:60px; 
+	height:70px;
+	padding:10px; 
+	text-align:center; 
+	background: whiteSmoke;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	bottom:10px;
+	right:5px;
+	display:none; 
+	background: url('../img/up-arrow-icon.png') no-repeat 0px 20px;
+	 background-size: 50px 50px;
+}
+
+.scrollToTop:hover{
+	text-decoration:none;
+}
+
+#textConvert{
+	font-family: Quark;
+	width: 420px;	
+	height: 300px;
+	font-size: 40px;
+}
+
+.btn-facebook{
+	width:154px; 
+	height:22px;
+	
+	text-align:center; 
+	
+	color: #444;
+	text-decoration: none;
+	
+	
+	background: url('../img/fb_login.png') ;
+	
+}
+
+.navbar .nav > li > a {
+  
+    color:  #fff;
+}
+
+
+ .sample {
+    width:  200px;
+    height: 100px;
+    margin: 16px;
+    padding: 16px;
+    display: inline-block;
+    background: whiteSmoke;
+  }
+  
+.full-spectrum .sp-palette {
+max-width: 200px;
+}
+
+#logo {
+	margin-top: 15px;
+	margin-right: 5px;
+    margin-left: 50px;
+
+ 	}
+
+#bg-colorConvert{
+	background-color: #e9e9e9;
+	
+}
+@font-face{
+    font-family: Caviar;
+    src : url('../fonts/CaviarDreams_Bold.ttf');
+}
+@font-face{
+    font-family: MJFFont;
+    src : url('../fonts/MJF Zhafira Demo.ttf');
+}
+@font-face{
+	font-family: HelFont;
+	src : url('../fonts/DB Helvethaica X Li.ttf');
+}
+@font-face{
+	font-family: Quark;
+	src : url('../fonts/QUARK-LIGHT.OTF);
+}
+@font-face{
+	font-family: B1;
+	src : url('../fonts/BebasNeue.otf);
+}
+
+
+.tapdown-login2{
+	
+	width:  800px;
+    height: 500px;
+    background-image: url("../img/albert.png");
+}
+
+
+#button-center-login{
+	margin: 0px 0px 0px 80px;
+}
+

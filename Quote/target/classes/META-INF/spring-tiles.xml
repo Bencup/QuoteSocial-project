@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+
+	<!-- Default Main Template -->
+
+	<definition name=".mainTemplate" template="/WEB-INF/jsp/layout/template.jsp">
+		<put-attribute name="title" value="Main" type="string" />
+		<put-attribute name="header" value="/WEB-INF/jsp/layout/header.jsp" />
+		
+		<put-attribute name="body" value="/WEB-INF/jsp/layout/blank.jsp" />
+	</definition>
+
+
+	<definition name="login" extends=".mainTemplate">
+		<put-attribute name="title" value="Quotes social Login"
+			type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/login.jsp" />
+	</definition>
+
+
+
+	<definition name="board" extends=".mainTemplate">
+		<put-attribute name="title" value="board Quotes social" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/board.jsp" />
+	</definition>
+	
+	<definition name="quoteOfUser" extends=".mainTemplate">
+		<put-attribute name="title" value="user of quotes" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/quoteOfUser.jsp" />
+	</definition>
+	
+	<definition name="categoriesOfQuotes" extends=".mainTemplate">
+		<put-attribute name="title" value="Topic Of Quotes" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/categoriesOfQuotes.jsp" />
+	</definition>
+	
+	<definition name="afterConvert" extends=".mainTemplate">
+		<put-attribute name="title" value="Preview" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/afterConvert.jsp" />
+	</definition>
+	
+	<definition name="afterFavor" extends=".mainTemplate">
+		<put-attribute name="title" value="Preview" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/afterFavor.jsp" />
+	</definition>
+	
+	<definition name="afterMy" extends=".mainTemplate">
+		<put-attribute name="title" value="Preview" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/afterMy.jsp" />
+	</definition>
+
+	<definition name="user" extends=".mainTemplate">
+		<put-attribute name="title" value="user" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/user.jsp" />
+	</definition>
+	
+	<definition name="signinwithface" extends=".mainTemplate">
+		<put-attribute name="title" value="signinwithface" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/signinwithface.jsp" />
+	</definition>
+	
+	<definition name="convert" extends=".mainTemplate">
+		<put-attribute name="title" value="this page to convert" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/convert.jsp" />
+	</definition>
+	
+	<definition name="signin" extends=".mainTemplate">
+		<put-attribute name="signin" value="this page to convert" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/signin.jsp" />
+	</definition>
+	
+	<definition name="signup" extends=".mainTemplate">
+		<put-attribute name="signup" value="this page to signup" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/signup.jsp" />
+	</definition>
+	
+	<definition name="categories" extends=".mainTemplate">
+		<put-attribute name="categories" value="Categories Quotes" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/categories.jsp" />
+	</definition>
+	
+	<definition name="favorBoard" extends=".mainTemplate">
+		<put-attribute name="favorBoard" value="my like " type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/favorBoard.jsp" />
+	</definition>
+	
+	<definition name="myQuote" extends=".mainTemplate">
+		<put-attribute name="myQuote" value="my Quote " type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/myQuote.jsp" />
+	</definition>
+
+	<definition name="accountSetting" extends=".mainTemplate">
+		<put-attribute name="accountSetting" value="Account Setting" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/accountSetting.jsp"/>
+	</definition>
+	<definition name="editPageMyQuote" extends=".mainTemplate">
+		<put-attribute name="editPageMyQuote" value="editPageMyQuote Setting" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/editPageMyQuote.jsp"/>
+	</definition>
+	<definition name="changePassword" extends=".mainTemplate">
+		<put-attribute name="changePassword" value="changePassword Setting" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/changePassword.jsp"/>
+	</definition>
+	<definition name="general" extends=".mainTemplate">
+		<put-attribute name="general" value="generalQuotes" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/categories/general.jsp"/>
+	</definition>
+	<definition name="success" extends=".mainTemplate">
+		<put-attribute name="success" value="successQuotes" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/categories/success.jsp"/>
+	</definition>
+	<definition name="inspiration" extends=".mainTemplate">
+		<put-attribute name="inspiration" value="inspirationQuotes" type="string" />
+		<put-attribute name="body" value="/WEB-INF/jsp/categories/inspiration.jsp"/>
+	</definition>
+	
+
+
+</tiles-definitions>
